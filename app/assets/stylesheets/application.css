@@ -11,3 +11,42 @@
  *= require_self
  *= require_tree .
  */
+
+body {
+	min-height: 100%;
+}
+
+.viewport {
+	background-color: #000;
+	display: block;
+}
+
+.logo {
+	margin-top: 40px;
+	height: 95px;
+	display: block;
+}
+
+.pres {
+	color: rgb(230, 230, 230);
+	background: #000;
+}
+
+.bordeau {
+	background: #4db651;
+}
+
+.sider {
+	background-color: rgb(240, 240, 240);
+	background-color: rgba(240, 240, 240, 0.3);
+	border: none;
+  border-radius: 40px 10px;
+	padding: 10px 10px 20px 10px;
+	margin: 30px 0 0 20px;
+}
+
+.footer {
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+

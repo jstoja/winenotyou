@@ -2,17 +2,19 @@
 <html>
 <head>
 	<title>Wine Not You</title>
+	<%= favicon_link_tag 'favicon.png', :rel => 'icon', :type => 'image/png' %>
 	<%= stylesheet_link_tag    "application", :media => "all" %>
 	<%= javascript_include_tag "application" %>
 	<%= csrf_meta_tags %>
 </head>
 <body>
-	<!--<div class="logo">
-	</div>
-	<div class="navbar">
-	</div>
--->
 	<div class="viewport">
+		<div class="navbar row">
+			<p class="navbrick span2 offset3 selected">Acceuil</p>
+			<p class="navbrick span2 offset1">Nos Produits</p>
+			<p class="navbrick span2 offset1">Nous</p>
+			<p class="navbrick span2 offset1">Contacts</p>
+		</div>
 		<%= yield %>
 	</div>
 	<div id="footer" class="footer row">

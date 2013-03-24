@@ -21,10 +21,25 @@ body {
 	display: block;
 }
 
-.logo {
-	margin-top: 40px;
+.navbar {
 	height: 95px;
 	display: block;
+}
+
+.navbrick {
+	font-size: 21px;
+	color: rgb(240, 240, 240);
+	background-color: rgb(240, 240, 240);
+	background-color: rgba(240, 240, 240, 0.4);
+	border: none;
+  border-radius: 15px 2px 2px 15px;
+  text-align: center;
+	margin: 45px 0 0 0;
+	padding: 5px 10px 5px 10px;
+}
+
+.selected {
+	color: #c40b1d;
 }
 
 .pres {
@@ -33,16 +48,20 @@ body {
 }
 
 .bordeau {
-	background: #4db651;
+	background: #7e0e42;
+}
+
+.bourgogne {
+	background: #e6cb37;
 }
 
 .sider {
 	background-color: rgb(240, 240, 240);
-	background-color: rgba(240, 240, 240, 0.3);
+	background-color: rgba(240, 240, 240, 0.4);
 	border: none;
   border-radius: 40px 10px;
-	padding: 10px 10px 20px 10px;
-	margin: 30px 0 0 20px;
+	padding: 20px 40px 40px 40px;
+	margin: 70px 0 70px 20px;
 }
 
 .footer {
@@ -50,3 +69,11 @@ body {
 	margin-bottom: 70px;
 }
 
+.viticulteur {
+	margin-top: 180px;
+}
+
+.lol {
+	color: #c41322;
+	font-size: 18px;
+}
